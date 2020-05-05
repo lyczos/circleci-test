@@ -9,6 +9,6 @@ export class AppComponent implements OnInit {
   title = 'circleci-test';
 
   ngOnInit() {
-    console.debug('lint error');
+    console.debug('lint error.');
   }
 }
