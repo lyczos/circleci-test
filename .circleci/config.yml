@@ -35,8 +35,8 @@ workflows:
   version: 2.1
   test_workflow:
     jobs:
-      - run-tests:
-          filters:
-            branches:
-              only:
-                - master
+      - run-tests
+#          filters:
+#            branches:
+#              only:
+#                - master
