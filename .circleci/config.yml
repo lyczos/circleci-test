@@ -40,4 +40,3 @@ workflows:
             branches:
               only:
                 - master
-                - 
