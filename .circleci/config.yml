@@ -1,6 +1,6 @@
 version: 2.1
 jobs:
-  test:
+  run-tests:
     working_directory: ~/circleci-test
     docker:
       - image: circleci/node:10-browsers
@@ -35,7 +35,7 @@ workflows:
   version: 2.1
   test_workflow:
     jobs:
-      - deploy:
+      - run-tests:
           filters:
             branches:
               only:
