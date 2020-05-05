@@ -32,4 +32,8 @@ describe('AppComponent', () => {
     const compiled = fixture.debugElement.nativeElement;
     expect(compiled.querySelector('.content span').textContent).toContain('circleci-test app is running!');
   });
+
+  it('should  fail the test...', () => {
+    expect(false).toBeTruthy();
+  });
 });
